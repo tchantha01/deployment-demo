@@ -6,7 +6,7 @@ const express = require('express')
 
 //access to files
 const path = require('path')
-// require('dotenv').config()
+require('dotenv').config()
 
 //uses Heroku port or defaults to 5000
 const port = process.env.PORT || 5000
